@@ -187,7 +187,7 @@ class $modify(filler, LevelEditorLayer) {
 	bool init(GJGameLevel* level, bool noUI) {
         if (!LevelEditorLayer::init(level, noUI)) return false;
         auto spr = CCSprite::create("logo.png"_spr);
-        spr->setScale(0.09f);
+        spr->setScale(0.08f);
 
         auto btn = CCMenuItemSpriteExtra::create(
 			spr,
@@ -199,7 +199,7 @@ class $modify(filler, LevelEditorLayer) {
         mn->setID(Mod::get()->getID()+"/auto-fill"_spr);
         mn->addChild(btn);
         mn->setZOrder(100);
-        mn->setPosition({117.f,120.f});
+        mn->setPosition({117.f,134.f});
         this->addChild(mn);
         
         this->m_fields->m_blockID = Mod::get()->getSettingValue<int>("fillblock");
