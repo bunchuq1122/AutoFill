@@ -1,0 +1,26 @@
+{
+	"geode": "5.1.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081"
+	},
+	"id": "bunchuq1122.auto-decoration-filler",
+	"name": "AutoFill",
+	"version": "v1.0.0",
+	"developer": "Bunchuq1122",
+	"description": "",
+	"settings": {
+		"fillblock": {
+			"type": "int",
+			"max": 1000,
+			"min": 1,
+			"name": "Fill with",
+			"default": 94
+		}
+	},
+	"resources": {
+		"sprites": [
+			"logo.png"
+		]
+	}
+}
