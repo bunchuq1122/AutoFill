@@ -8,7 +8,7 @@
 	"name": "AutoFill",
 	"version": "v1.0.0",
 	"developer": "Bunchuq1122",
-	"description": "",
+	"description": "AutoFill for Geometry Dash",
 	"settings": {
 		"fillblock": {
 			"type": "int",
