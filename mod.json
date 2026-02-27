@@ -22,5 +22,12 @@
 		"sprites": [
 			"logo.png"
 		]
+	},
+	"tags": [
+		"editor","enhancement","offline"
+	],
+	"links": {
+		"community": "https://github.com/bunchuq1122/AutoFill",
+		"source": "https://github.com/bunchuq1122/AutoFill"
 	}
 }
