@@ -1,5 +1,4 @@
 # ***AUTO-FILL SYSTEM FOR GEOMETRY DASH***
-*geode mod*
 
 ***you can auto-fill the two types of object!***
 1. Objects with closed outlines
