@@ -187,7 +187,7 @@ class $modify(filler, LevelEditorLayer) {
 	bool init(GJGameLevel* level, bool noUI) {
         if (!LevelEditorLayer::init(level, noUI)) return false;
         auto spr = CCSprite::create("logo.png"_spr);
-        spr->setScale(0.515f);
+        spr->setScale(0.09f);
 
         auto btn = CCMenuItemSpriteExtra::create(
 			spr,
