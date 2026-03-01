@@ -4,3 +4,6 @@
 
 # v1.1.0
 - btn <cj>visibility</c> fixed
+
+# v1.1.1
+- dependencies added
