@@ -203,18 +203,15 @@ class $modify(filler, LevelEditorLayer) {
         this->addChild(mn);
         
         this->m_fields->m_blockID = Mod::get()->getSettingValue<int>("fillblock");
-		return true;
+		
+        this->schedule(schedule_selector(filler::loop),0.01f);
+        return true;
 	}
 
-    void onPlaytest() {
-        LevelEditorLayer::onPlaytest();
-        auto mn = this->getChildByID(Mod::get()->getID()+"/auto-fill"_spr);
-        mn->setVisible(false);
-    }
-
-    void onStopPlaytest() {
-        LevelEditorLayer::onStopPlaytest();
-        auto mn = this->getChildByID(Mod::get()->getID()+"/auto-fill"_spr);
-        mn->setVisible(true);
+    void loop(float) {
+        auto editorUI = this->m_editorUI;
+        auto menu = editorUI->getChildByID("editor-buttons-menu");
+        auto anyBtn = menu->getChildByID("copy-paste-button");
+        this->getChildByID(Mod::get()->getID()+"/auto-fill"_spr)->setVisible(anyBtn->isVisible());
     }
 };

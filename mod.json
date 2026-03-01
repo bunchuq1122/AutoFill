@@ -1,12 +1,12 @@
 {
-	"geode": "5.1.0",
+	"geode": "5.2.0",
 	"gd": {
 		"win": "2.2081",
 		"android": "2.2081"
 	},
 	"id": "bunchuq1122.auto-decoration-filler",
 	"name": "AutoFill",
-	"version": "v1.0.0",
+	"version": "v1.1.0",
 	"developer": "Bunchuq1122",
 	"description": "AutoFill for Geometry Dash",
 	"settings": {

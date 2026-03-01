@@ -1,8 +1,8 @@
 # ***AUTO-FILL SYSTEM FOR GEOMETRY DASH***
 
 ***you can auto-fill the two types of object!***
-1. Objects with closed outlines
-2. Objects with open outlines
+1. <cg>Default Auto-Fill</c>: Objects with closed outlines
+2. <cj>SMART Auto-Fill<c>: Objects with open outlines
 
 ***!currently WIP***
 - <u>future stuffs</u>
