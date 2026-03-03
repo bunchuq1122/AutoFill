@@ -213,6 +213,8 @@ class $modify(filler, LevelEditorLayer) {
         auto editorUI = this->m_editorUI;
         auto menu = editorUI->getChildByID("editor-buttons-menu");
         auto anyBtn = menu->getChildByID("copy-paste-button");
-        this->getChildByID(Mod::get()->getID()+"/auto-fill"_spr)->setVisible(anyBtn->isVisible());
+        auto btn = this->getChildByID(Mod::get()->getID()+"/auto-fill"_spr);
+        if (!btn || !anyBtn) return;
+        btn->setVisible(anyBtn->isVisible());
     }
 };
