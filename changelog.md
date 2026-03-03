@@ -7,3 +7,6 @@
 
 # v1.1.1
 - dependencies added
+
+# v1.1.2
+- use UpdateDebugDraw instead of schedule

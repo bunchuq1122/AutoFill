@@ -204,11 +204,12 @@ class $modify(filler, LevelEditorLayer) {
         
         this->m_fields->m_blockID = Mod::get()->getSettingValue<int>("fillblock");
 		
-        this->schedule(schedule_selector(filler::loop),0.01f);
+        //this->schedule(schedule_selector(filler::loop),0.01f);
         return true;
 	}
 
-    void loop(float) {
+    void updateDebugDraw() {
+        LevelEditorLayer::updateDebugDraw();
         auto editorUI = this->m_editorUI;
         auto menu = editorUI->getChildByID("editor-buttons-menu");
         auto anyBtn = menu->getChildByID("copy-paste-button");
